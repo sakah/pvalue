@@ -25,7 +25,7 @@ void chk1()
    c1->Print("c1.pdf");
 }
 
-void chk2(double ndf)
+void chk2(int ndf)
 {
    TCanvas* c2 = new TCanvas("c2");
    TF1* f1 = new TF1("func1", func1, 0, 10, 1);
